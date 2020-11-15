@@ -1,0 +1,75 @@
+.header {
+    background: url(images/bg.jpg) , #030303;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-position-y: 20%;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.header img {
+    border-radius: 100%;
+    width: 180px;
+    border: 2px solid #fff;
+    position: relative;
+    top: 100px;
+}
+.header .black{
+position: absolute;
+    background: #0000008f;
+    width: 100%;
+    height: 100%;
+}
+.header	h1 {
+    z-index: 9999;
+    position: absolute;
+    color: #fff;
+    left: 0px;
+    right: 0px;
+    font-style: italic;
+    top: 30px;
+}
+body{
+	background: #898F9C;
+	padding: 0px;
+}
+.container{
+	    width: 80%;
+    margin: 0px auto;
+    background: #fff;
+    min-height: 900px;
+}
+.menu  ul {
+    padding: 0px;
+}
+
+.menu  li {
+    list-style: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+
+.flex-container {
+    display: flex;
+    padding: 0px 15px;
+
+}
+.menu {
+  flex-grow: 2;
+}
+.content {
+    flex-grow: 8;
+    margin-top: 100px;
+    border-left: 1px solid #ccc;
+    margin-right: 5px;
+    padding: 30px;
+}
+.menu  a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}

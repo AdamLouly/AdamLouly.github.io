@@ -1,0 +1,41 @@
+.header {
+    background: #3498db;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.menu {
+    background: #2ecc71;
+    }
+
+li {
+   
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+ 
+
+.content {
+    background: #9b59b6;
+  }
+
+.content div {border: 1px solid;height: 400px;text-align:center;}
+ 
+.footer {
+    background: #e74c3c;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 0px;
+}
+ 
